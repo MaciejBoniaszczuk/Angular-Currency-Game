@@ -1,4 +1,4 @@
-#Currency-Game
+# Currency-Game
 
 * This app takes the API containing exchange rates (https://api.exchangeratesapi.io/latest)
 chooses a random currency, the user have to guess the correct rate
