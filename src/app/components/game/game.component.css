@@ -1,0 +1,30 @@
+html{
+  background: darkgray;
+}
+h1{
+  letter-spacing: 2px;
+}
+body{
+  padding: 0;
+  margin: -8px;
+  height: 100vh;
+  background: darkgray;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.changeLevelButton{
+  background: red;
+  width: 300px;
+}
+.button{
+  width: 25%;
+  height: 50px;
+  margin-bottom: 8px;
+}
+.currencyInput{
+  width: 25%;
+  margin-bottom: 8px;
+}

@@ -1,0 +1,13 @@
+<html>
+<body>
+<h1>Currency Game</h1>
+<button class="checkAnswerButton button" (click)="checkAnswer()">{{buttonText}}</button>
+{{answer}}
+<p>Wybierz poziom trudności (domyślnie trudniejszy)</p>
+<button class="changeLevelButton button"(click)="changeLevel()">{{levelText}}</button>
+<p>Podaj wartość {{randomCurrency}} w EUR: </p>
+<input class="currencyInput" type="text" #currency>
+<button class="button" (click)="check(currency.value)">Sprawdź</button>
+{{result}}
+</body>
+</html>
