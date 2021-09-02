@@ -5,7 +5,7 @@
 {{answer}}
 <p>Wybierz poziom trudności (domyślnie trudniejszy)</p>
 <button class="changeLevelButton button"(click)="changeLevel()">{{levelText}}</button>
-<p>Podaj wartość {{randomCurrency}} w EUR: </p>
+<p>Podaj wartość {{this.randomCurrency}} w EUR: </p>
 <input class="currencyInput" type="text" #currency>
 <button class="button" (click)="check(currency.value)">Sprawdź</button>
 {{result}}

@@ -23,11 +23,12 @@ export class GameComponent implements OnInit {
     this.currencyClientService.getCurrency().subscribe(value => {
         this.rootObject = value;
         const keys = Object.keys(this.rootObject.rates);
-        const randomNumber = Math.floor((Math.random() * 10) + 1);
+        const randomNumber = Math.floor((Math.random() * 100) + 1);
         this.randomCurrency = keys[randomNumber];
         this.flag = false;
         this.buttonText = 'Sprawdź odpowiedź';
         this.levelText = 'Kliknij aby wybrać lvl';
+        console.log(this.randomCurrency);
     });
 
   }
